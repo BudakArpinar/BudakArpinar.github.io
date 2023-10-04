@@ -1,8 +1,15 @@
 
-body { font-family: Lato, Arial; font-size: 14px; color: #333;}
-#wrap { margin: 0 auto; max-width: 1024px; padding: 10px 15px;}
+body { font-family: Lato, Arial; font-size: 14px; color: #333; height: 100%}
+#wrap { margin: 0 auto; max-width: 1024px; padding: 10px 15px; height: inherit}
+/* Define the style for the active link */
+#top_menu .active a {
+    font-weight: bold;
+    color: #059;
+	border-bottom: 2px solid #059;
+}
 
-a { text-decoration: none; color: #379;}
+
+a { text-decoration: none}
 ul { padding-left: 0;}
 li {  position: relative; margin: 8px 0 24px; line-height: 19px;}
 
@@ -11,8 +18,8 @@ li {  position: relative; margin: 8px 0 24px; line-height: 19px;}
 #title h1 a { color: #147;}
 #top_menu { margin: 0 0 4px 0;}
 #top_menu li { display: inline; font-size: 16px; margin: 0 7px;}
-#top_menu a { color: #555;}
-#top_menu a:hover { color: #379;}
+#top_menu a { color: black;}
+#top_menu a:hover { color: #059;}
 
 .content { position: relative; margin-left: 175px; line-height: 22px;}
 .content a { border-bottom: 1px solid #ddd;}

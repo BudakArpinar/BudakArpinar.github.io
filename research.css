@@ -9,10 +9,6 @@ li { list-style: none; position: relative; margin: 8px 0 24px; line-height: 19px
 #title { display: flex; align-items: flex-end; justify-content: space-between; padding-top: 20px; border-bottom: 1px solid #ccc; padding-bottom: 6px; margin-bottom: 20px;}
 #title h1 { font-size: 40px; margin: 0; color: #147; min-width: 300px;}
 #title h1 a { color: #147;}
-#top_menu { margin: 0 0 4px 0;}
-#top_menu li { display: inline; font-size: 16px; margin: 0 7px;}
-#top_menu a { color: #555;}
-#top_menu a:hover { color: #379;}
 
 .content { position: relative; margin-left: 175px; line-height: 22px;}
 .content a { border-bottom: 1px solid #ddd;}
