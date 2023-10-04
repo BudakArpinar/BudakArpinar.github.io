@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+
+prefix dcterms: <http://purl.org/dc/terms/> 
+prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+prefix census: <tag:govshare.info,2005:rdf/census/>
+prefix usgovt: <tag:govshare.info,2005:rdf/usgovt/>
+
+select ?CountyName ?TownName ?StateName ?Population 
+where {
+?Town rdf:type usgovt:Town;
+dc:title ?TownName;
+census:population ?Population;
+dcterms:isPartOf ?county.
+?county rdf:type usgovt:County;
+dc:title ?CountyName;
+dcterms:isPartOf ?state.
+?state rdf:type usgovt:State;
+dc:title ?StateName
+}LIMIT 10

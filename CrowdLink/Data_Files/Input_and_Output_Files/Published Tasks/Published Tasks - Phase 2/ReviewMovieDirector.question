@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Question>
+    <QuestionIdentifier>1</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Please Review the if the Movie Director name mentioned below is correct for the given movie
+
+MovieTitle: ${MovieTitle}  
+MovieDirector: ${MovieDirector}  
+</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>No</SelectionIdentifier>
+            <Text>NO</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Yes</SelectionIdentifier>
+            <Text>YES</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  
+      <Question>
+    <QuestionIdentifier>1</QuestionIdentifier>
+    <QuestionContent>
+      <Text>What is your confidence level in your response above.
+</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>VHigh</SelectionIdentifier>
+            <Text>Very High</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>High</SelectionIdentifier>
+            <Text>High</Text>
+          </Selection>
+           <Selection>
+            <SelectionIdentifier>Neutral</SelectionIdentifier>
+            <Text>Neutral</Text>
+          </Selection>
+           <Selection>
+            <SelectionIdentifier>Low</SelectionIdentifier>
+            <Text>Low</Text>
+          </Selection>
+           <Selection>
+            <SelectionIdentifier>VLow</SelectionIdentifier>
+            <Text>Very Low</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  </QuestionForm>

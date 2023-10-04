@@ -1,0 +1,14 @@
+prefix dbo:<http://dbpedia.org/ontology/>
+prefix dbp:<http://dbpedia.org/property/>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+select DISTINCT ?statename ?headquarter ?same
+where {
+   ?hq dbo:headquarter ?state;
+       dbp:name  ?headquarter;
+	   owl:sameAs ?same.
+  		?state rdf:type <http://dbpedia.org/class/yago/StatesOfTheUnitedStates>;
+          dbp:name ?statename.
+ 
+} limit 10

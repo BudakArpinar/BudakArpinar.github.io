@@ -1,0 +1,12 @@
+prefix dbo:<http://dbpedia.org/ontology/>
+prefix dbp:<http://dbpedia.org/property/>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?RiverName ?RiverLength
+where {
+   ?r rdf:type dbo:River;
+   dbp:country <http://dbpedia.org/resource/United_States>;
+   dbp:name  ?RiverName;
+   dbo:length ?RiverLength
+   
+
+} limit 10

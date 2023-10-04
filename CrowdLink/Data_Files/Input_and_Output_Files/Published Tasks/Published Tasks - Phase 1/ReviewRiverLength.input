@@ -1,0 +1,11 @@
+Serial	RiverName	RiverLength
+1	"Trampas Canyon Creek"@en	"1287.48"^^http://www.w3.org/2001/XMLSchema#double
+2	"Islais Creek"@en	"1609.34"^^http://www.w3.org/2001/XMLSchema#double
+3	"Washoe Creek"@en	"3218.69"^^http://www.w3.org/2001/XMLSchema#double
+4	"Cerrito Creek"@en	"3218.69"^^http://www.w3.org/2001/XMLSchema#double
+5	"Slippery Rock Brook"@en	"3218.69"^^http://www.w3.org/2001/XMLSchema#double
+6	"Yulupa Creek"@en	"4506.16"^^http://www.w3.org/2001/XMLSchema#double
+7	"Bear Creek"@en	"4506.16"^^http://www.w3.org/2001/XMLSchema#double
+8	"San Rafael Creek"@en	"4828.03"^^http://www.w3.org/2001/XMLSchema#double
+9	"Diamond Brook"@en	"4828.03"^^http://www.w3.org/2001/XMLSchema#double
+10	"Northeast Branch Anacostia River"@en	"4828.03"^^http://www.w3.org/2001/XMLSchema#double

@@ -1,0 +1,11 @@
+Serial	StateName	HeadQuarter
+1	"California"@en	"Herald Sun"@en
+2	"California"@en	"Athletic Association of the Great Public Schools of New South Wales"@en
+3	"California"@en	"mX"@en
+4	"California"@en	"Royal Automobile Club of Australia"@en
+5	"California"@en	"241"^^http://www.w3.org/2001/XMLSchema#int
+6	"California"@en	"The Sun-Herald"@en
+7	"California"@en	"The Independent Schools Association"@en
+8	"California"@en	"250"^^http://www.w3.org/2001/XMLSchema#int
+9	"California"@en	"The Advocate"@en
+10	"California"@en	"The Associated Schools of NSW Inc."@en

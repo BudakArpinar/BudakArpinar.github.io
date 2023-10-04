@@ -1,0 +1,15 @@
+prefix dbo:<http://dbpedia.org/ontology/>
+prefix dbp:<http://dbpedia.org/property/>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+
+
+Select  ?person 
+where {
+?person dc:creator ?y.
+ 
+	}
+limit 10

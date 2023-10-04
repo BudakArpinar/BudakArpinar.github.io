@@ -1,0 +1,31 @@
+prefix dbo:<http://dbpedia.org/ontology/>
+prefix dbp:<http://dbpedia.org/property/>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX oddlinker: <http://data.linkedmdb.org/resource/oddlinker/>
+PREFIX db: <http://data.linkedmdb.org/resource/>
+PREFIX dbpedia: <http://dbpedia.org/property/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX movie: <http://data.linkedmdb.org/resource/movie/>
+PREFIX movieprop: <http://data.linkedmdb.org/page/>
+
+Select  ?title ?director_name ?same
+where {
+?movie   rdf:type movie:film;
+               dc:title  ?title;
+	    owl:sameAs ?same;
+	   movie:director ?director;
+	   movie:director_name  ?director_name.
+
+	}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+
+		/*TaskProfile T1 = new TaskProfile();
+		T1.taskName = "ReviewCountiesJ1";
+		T1.taskType = "Review";
+		T1.taskDescription = "Please Review if the given County belongs to the mentioned State\n";
+		T1.queryTemplate = "./queries/query3.txt";
+		T1.updateTemplate = "Null";
+		T1.dataSourceType = "file";
+		T1.sourceOntology = "geo-counties.n3";
+		runWorkflow(T1);
+
+		TaskProfile T2 = new TaskProfile();
+		T2.taskName = "GetCountySchoolsJ1";
+		T1.taskType = "Acquire";
+		T2.taskDescription = "Please Enter the No of Public (High) Schools in the County\n ";
+		T2.queryTemplate = "./queries/query3.txt";
+		T2.updateTemplate = "./queries/template.txt";
+		T1.dataSourceType = "file";
+		T1.sourceOntology = "geo-counties.n3";
+		//runWorkflow(T2);
+
+		TaskProfile T3 = new TaskProfile();
+		T3.taskName = "ReviewPopulationJ1";
+		T3.taskType = "Review";
+		T3.taskDescription = "Please Review if the given population of the town is correct\n";
+		T3.queryTemplate = "./queries/query5.txt";
+		T3.updateTemplate = "Null";
+		T3.dataSourceType = "file";
+		T3.sourceOntology = "geo-towns.n3";
+		//runWorkflow(T3);
+		
+
+		TaskProfile T4 = new TaskProfile();
+		T4.taskName = "ReviewMovieDirectorJ1";
+		T4.taskType = "Review";
+		T4.taskDescription = "Please Review if the given movie and its director are correct\n";
+		T4.queryTemplate = "./queries/query2.txt";
+		T4.updateTemplate = "Null";
+		T4.dataSourceType = "endpoint";
+		T4.sourceOntology = "http://data.linkedmdb.org/sparql";*/
+		//runWorkflow(T4);
+
+
+		/*TaskProfile T5 = new TaskProfile();
+		T5.taskName = "ReviewTranslationJ1";
+		T5.taskType = "ReviewTranslation";
+	T5.taskDescription = "Please Review if the given translation is correct\n";
+		//T5.queryTemplate = "./queries/query2.txt";
+		//T5.updateTemplate = "Null";
+		//T5.dataSourceType = "endpoint";
+		//T5.sourceOntology = "http://data.linkedmdb.org/sparql";
+		
+		
+
+		runWorkflow(T5);
+		
+		
+		TaskProfile T6 = new TaskProfile();
+		T6.taskName = "GetTranslationJ1";
+		T6.taskType = "AcquireTranslation";
+		T6.taskDescription = "Please Enter the english translation for the following word:\n ";
+		//T6.queryTemplate = "./queries/query3.txt";
+		//T6.updateTemplate = "./queries/template.txt";
+		//T6.dataSourceType = "file";
+		//T6.sourceOntology = "geo-counties.n3";
+		runWorkflow(T6);*/

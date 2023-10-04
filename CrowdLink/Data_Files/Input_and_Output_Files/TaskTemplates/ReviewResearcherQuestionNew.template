@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Question>
+    <QuestionIdentifier>Q1</QuestionIdentifier>
+    <QuestionContent>
+      <Text>Please enter your 810-Number. If you have already done so in atleast one HIT, you may not re-enter it.  </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+  </Question>
+  
+  
+  
+  <Question>
+    <QuestionIdentifier>1</QuestionIdentifier>
+    <QuestionContent>
+      <Text>
+ Please follow the information about the following two entities and specify if they refer to the same person or not
+ Researcher 1: ${Entity1}  Link to Profile: ${URI-1}
+
+ Researcher 2: ${Entity2}  
+
+ Link to Profile: ${URI-2}
+</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>No</SelectionIdentifier>
+            <Text>NO</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>Yes</SelectionIdentifier>
+            <Text>YES</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  
+      <Question>
+    <QuestionIdentifier>1</QuestionIdentifier>
+    <QuestionContent>
+      <Text>What is your confidence level in your response above.
+</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <MinSelectionCount>1</MinSelectionCount>
+        <MaxSelectionCount>1</MaxSelectionCount>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>VHigh</SelectionIdentifier>
+            <Text>Very High</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>High</SelectionIdentifier>
+            <Text>High</Text>
+          </Selection>
+           <Selection>
+            <SelectionIdentifier>Neutral</SelectionIdentifier>
+            <Text>Neutral</Text>
+          </Selection>
+           <Selection>
+            <SelectionIdentifier>Low</SelectionIdentifier>
+            <Text>Low</Text>
+          </Selection>
+           <Selection>
+            <SelectionIdentifier>VLow</SelectionIdentifier>
+            <Text>Very Low</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  </QuestionForm>
